@@ -77,3 +77,43 @@ header {
     width: auto;
 }
 
+
+/* Main content styling */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 150px;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display:flex;
+}
+
+.cards-container figure {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:grey;
+    
+}
+
+.cards-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
