@@ -1,6 +1,25 @@
+/* General set-up + global fonts */
+
+@font-face{
+    font-family: 'Hobbiton Brushhand';
+    src: url("../fonts/hobbiton-brushhand-font/HobbitonBrushhandhobbitonBrush-WygA.ttf");
+}
+
+@font-face{
+    font-family: Medieval;
+    src: url("../fonts/MedievalSharp/MedievalSharp-Regular.ttf");
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Medieval, sans-serif;
     margin:0;
+}
+
+h1,
+h2,
+h3,
+nav p {
+    font-family: 'Hobbiton Brushhand';
 }
 
 html {
@@ -9,14 +28,20 @@ html {
 
 /* Nav/header top styling */
 
+
+#background {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.902), rgba(255, 187, 0, 0.302)), url(../images/cover.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.902), rgba(255, 187, 0, 0.302)), url(../images/cover.jpg) no-repeat;
+    background-size: cover;
+}
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin:0;
-    background-color: #1f2937;
     color: #f9faf8;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     padding: 0px 7% 0px 20%;
 }
@@ -49,15 +74,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
     color: #f9faf8;
-    padding: 10px 100px;
+    padding: 50px 100px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-    padding: 80px;
 }
 
 .hero h1 {
@@ -75,7 +98,8 @@ header {
 
 .hero .anchor-button {
     color: #fff;
-    background-color: #3882f6;
+    border: 2px solid white;
+    background-color: #8d2901;
     font-size: 16px;
     font-weight: bold;
     height: 40px;
@@ -89,7 +113,7 @@ header {
 
 #header-image {
     padding: 10px;
-    height: 250px;
+    height: 400px;
     width: auto;
 }
 
