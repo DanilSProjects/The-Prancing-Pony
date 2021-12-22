@@ -127,11 +127,14 @@ main {
     justify-content: center;
     align-items: center;
     padding: 50px 150px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(87, 20, 20, 0.4)), url(../images/main-background.jpg) no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 main h2 {
     font-size: 40px;
-    color: #1f2937;
+    color: #ffffff;
     margin: 0 0 30px 0;
 }
 
