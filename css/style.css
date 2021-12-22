@@ -34,6 +34,11 @@ ul li a,
     font-size: 18px;
 }
 
+.nav-links a:link,
+.nav-links a:visited {
+    color:white;
+} 
+
 /* Header bottom/hero styling */
 
 header {
