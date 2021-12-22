@@ -59,9 +59,10 @@ header {
     margin-bottom: 20px;
 }
 
-.hero button {
+.hero a {
     color: #fff;
     background-color: #3882f6;
+    border: 2px solid transparent;
     font-size: 16px;
     font-weight: bold;
     height: 40px;
@@ -69,6 +70,9 @@ header {
     flex: 1 0 auto;
     border-radius: 5px;
     border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #header-image {
