@@ -117,3 +117,31 @@ main h2 {
     border-radius: 10px;
     border: 2px solid blue;
 }
+
+/* Blockquote styling */
+
+blockquote {
+    margin:0;
+    padding: 130px 230px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote footer {
+    margin-left: auto;
+}
+
+blockquote footer,
+.author {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    font-style:normal;
+}
