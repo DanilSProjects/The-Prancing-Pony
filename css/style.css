@@ -69,17 +69,15 @@ header {
     margin-bottom: 20px;
 }
 
-.hero a {
+.hero .anchor-button {
     color: #fff;
     background-color: #3882f6;
-    border: 2px solid transparent;
     font-size: 16px;
     font-weight: bold;
     height: 40px;
     width: 125px;
     flex: 1 0 auto;
     border-radius: 5px;
-    border: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,6 +144,7 @@ blockquote {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 blockquote footer {
@@ -158,4 +157,46 @@ blockquote footer,
     font-weight: bold;
     font-size: 24px;
     font-style:normal;
+}
+
+/* Call to action styling */
+
+.cta-container {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 100px 200px;
+    border-radius: 5px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text h3, 
+.cta-text p {
+    margin: 0;
+    margin-left: 120px;
+    font-size: 23px;
+}
+
+.cta-text p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+.cta-container .anchor-button {
+    margin-left: auto;
+    margin-right: auto;
+    color: #e5e7eb;
+    font-weight: bold;
+    border: 3px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 16px;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
