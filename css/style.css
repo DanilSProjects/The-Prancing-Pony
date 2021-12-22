@@ -204,3 +204,14 @@ blockquote footer,
     align-items: center;
     box-sizing: border-box;
 }
+
+/* Footer styling */
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
