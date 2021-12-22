@@ -160,31 +160,39 @@ main h2 {
 
 /* Blockquote styling */
 
-blockquote {
-    margin:0;
-    padding: 130px 230px;
+.quotes {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
     background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quotes h2 {
+    font-size: 40px;
+    padding:0px;
+    margin:0px 5px;
+}
+
+blockquote {
+    padding:20px 20px;
+    margin: 0px;
     color: #1f2937;
-    font-size: 36px;
+    width: 95%;
+    height: auto;
+    font-size: 32px;
     font-style: italic;
     font-weight: lighter;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
-blockquote footer {
-    margin-left: auto;
-}
-
-blockquote footer,
+.quotes footer,
 .author {
+    font-size: 24px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    font-style:normal;
 }
 
 /* Call to action styling */
