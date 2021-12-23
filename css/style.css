@@ -242,44 +242,43 @@ blockquote {
 
 /* Call to action styling */
 
-.cta-container {
-    background-color: #3882f6;
+#visit-overlay {
+    background: url(../images/visit.jpg) no-repeat;
+    background-size: cover;
+    border: 5px solid #8d2901;
+}
+
+.visit-container {
+    background-color: #8d2901;
     color: #e5e7eb;
     margin: 100px 200px;
     border-radius: 5px;
-    height: 150px;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.cta-text h3, 
-.cta-text p {
-    margin: 0;
-    margin-left: 120px;
-    font-size: 23px;
+.visit-container iframe {
+    display:block; /* iframe will resize with the visit-container*/
+    width:80%;
+    height: 300px;
 }
 
-.cta-text p {
+.visit-text {
+    margin: 20px auto;
+}
+
+.visit-text h3, 
+.visit-text p {
+    margin: 0;
+    font-size: 32px;
+}
+
+.visit-text p {
     font-size: 16px;
     font-weight: lighter;
-}
-
-
-.cta-container .anchor-button {
-    margin-left: auto;
-    margin-right: auto;
-    color: #e5e7eb;
-    font-weight: bold;
-    border: 3px solid #e5e7eb;
-    border-radius: 8px;
-    font-size: 16px;
-    height: 40px;
-    width: 130px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
 }
 
 /* Footer styling */
