@@ -221,7 +221,7 @@ figcaption {
     margin:0px 5px;
 }
 
-blockquote {
+.testimonial {
     padding:20px 20px;
     margin: 0px;
     color: #1f2937;
@@ -231,6 +231,21 @@ blockquote {
     font-style: italic;
     font-weight: lighter;
     border: 1px solid rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial img {
+    width: 200px;
+    height: auto;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+blockquote {
+    width: 100%;
 }
 
 .quotes footer,
@@ -240,9 +255,9 @@ blockquote {
     font-weight: bold;
 }
 
-/* Call to action styling */
+/* Visit us styling */
 
-#visit-overlay {
+#visit-us {
     background: url(../images/visit.jpg) no-repeat;
     background-size: cover;
     border: 5px solid #8d2901;
@@ -251,7 +266,7 @@ blockquote {
 .visit-container {
     background-color: #8d2901;
     color: #e5e7eb;
-    margin: 100px 200px;
+    margin: 100px 20vw;
     border-radius: 5px;
     padding: 20px;
     display: flex;
